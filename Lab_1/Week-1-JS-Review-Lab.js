@@ -552,6 +552,7 @@ for (i = 0; i < listings.length; i++) {
 
 const filteredListings = listings.filter(
   //unknown and renovated houses are ignored
+  //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
   (listing) => parseInt(listing.propertySummary.builtIn) <= 1990
 );
 
