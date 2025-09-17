@@ -10,6 +10,7 @@ function App() {
           image="src\assets\images\princess.jpg"
           description="Princess"
           price="$1,350"
+          sale={true}
         />
         <Card
           image="src\assets\images\swan.jpg"
