@@ -8,8 +8,8 @@ export default function Card(props) {
       <img
         className="imageComponent"
         src={props.image}
-        alt="princess"
-        width="100px"
+        alt="Product Image"
+        width="200px"
       />
       <h2>{props.description}</h2>
       {props.sale ? <h3 className="Card-Sale">On Sale!</h3> : <h3>&nbsp;</h3>}

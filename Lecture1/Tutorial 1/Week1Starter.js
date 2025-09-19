@@ -142,6 +142,21 @@ console.log(greetStudentLambda(studentOne));
  *8
  Ternaries are short, one liners, if/else statements 
  */
+if (studentOne.tuitionPaid > 10000) {
+  console.log("They are paying too much");
+} else {
+  console.log("They are paying a reasonable amount");
+}
+
+console.log(
+  studentOne.tuitionPaid > 10000
+    ? "They are paying too much"
+    : "They are paying a reasonable amount"
+);
+
+let courseLoadChecker = studentOne.courses.includes("COMPa205")
+  ? "They have the correct course load"
+  : studentOne.courses.push("COMPa205");
 
 /**
  *9

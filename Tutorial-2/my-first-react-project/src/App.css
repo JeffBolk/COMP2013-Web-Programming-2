@@ -52,7 +52,7 @@
   border: rgb(226, 232, 236) 2px solid;
   border-radius: 10px;
   padding: 20px;
-  width: 600px;
+  width: 900px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,9 +65,9 @@
   color: red;
 }
 .Card-Sale-Glow {
-  box-shadow: 0 0 10px 5px #61dafbaa;
+  box-shadow: 0 0 10px 5px #fb6161aa;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .main-container {
     flex-direction: column;
     width: 300px;
